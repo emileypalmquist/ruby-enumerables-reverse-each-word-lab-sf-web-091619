@@ -6,5 +6,5 @@ def reverse_each_word(greeting)
     newGreeting.push(word.reverse)
   end
   
-  return newGreeting.join( )
+  return newGreeting.join(' ')
 end  
