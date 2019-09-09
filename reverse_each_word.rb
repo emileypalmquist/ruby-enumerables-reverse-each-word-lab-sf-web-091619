@@ -11,7 +11,7 @@ end
 
 
 def reverse_each_word(greeting)
-  sentence = greetibng.split(' ')
+  sentence = greeting.split(' ')
   newGreeting = []
   
   sentence.collect do |word|
